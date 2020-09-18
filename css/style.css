@@ -1,0 +1,546 @@
+body {
+    width: 100%;
+    font-family: 'red hat display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main_block{
+    width: 100%;
+    background: #44A0FF;
+}
+
+.navbar{
+    height: 80px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.top_bar{
+    background-color: #44A0FF;
+    color: #fff;
+}
+
+
+
+
+
+.navbar p{
+    margin-top: 28px;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+.navbar ul{
+    margin-top: 28px;
+}
+.navbar li{
+    cursor: pointer;
+    display: inline;
+    margin: 16px;
+}
+
+.navbar button{
+    margin-left: 40px;
+    background: #44A0FF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #fff;
+    width: 135px;
+    height: 48px;
+    margin-top: 16px;
+}
+
+.navbar button:hover{
+    background: #fff;
+    border: 1px solid #E2E8EB;
+    color: #14171D;
+}
+
+.navbar button:active{
+    background: #E2E8EB;
+    border: 1px solid #E2E8EB;
+    color: #fff;
+}
+
+.main_block h1{
+    text-align: center;
+    margin-top: 80px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.main_block .logos{
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.main_block .phone{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: -40px;
+;
+}
+.circle{
+    width: 100%;
+    position: relative;
+}
+
+.circle img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.feature h1{
+    margin-top: 100px;
+    color: #14171D;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.feature p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #44A0FF;
+}
+
+.feature .circle_logo{
+    margin-top: 68px;
+    width: 64px;
+    height: 64px;
+    background: #ECF5FF;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.feature h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 16px;
+}
+.feature p{
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.content{
+    width: 100%;
+}
+
+.content h1{
+    margin-top: 100px;
+    text-align: center;
+}
+.testimonials h3{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.testimonials h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.card{
+    margin-top: 56px;
+
+    height: 500px;
+    background: #44A0FF;
+    position: relative;
+}
+
+.gradient{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+.gradient h3{
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.gradient p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-left: 30px;
+}
+
+.gradient .circle_icon{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background: #fff;
+    border-radius: 50%;
+    right: 32px;
+    bottom: 32px;
+    text-align: center;
+    mix-blend-mode: normal;
+    opacity: 0.2;   
+}
+
+.gradient img{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.center{
+    margin-top: 56px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.text p{
+    position: absolute;
+    height: 252px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.center h3{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #14171D;
+    position: absolute;
+    left: 32px;
+    bottom: 101px;
+}
+
+.info p{
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 32px;
+    bottom: 73px;
+}
+
+.center a{
+    position: absolute;
+    color: #44A0FF;
+    bottom: 33px;
+    left: 30px
+}
+
+.testimo{
+    height: 337px;
+    position: relative;
+}
+
+.testimo p{
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+
+.testimo .text p{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+.testimo .text{
+    margin-top: 100px;
+}
+
+.testimo .text img{
+    position: absolute;
+    top: 105px;
+}
+
+.avatar {
+    position: absolute;
+    bottom: 100px;
+}
+
+.avatar h3{
+    font-family: 'Red Hat Display', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+
+.avatar p{
+    display: inline-block;
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+}
+.avatar img{
+    display: inline-block;
+}
+
+.faq h3{
+    text-align: center;
+    font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+}
+
+.faq h1{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.question{
+    margin-top: 16px;
+    height: 80px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    position: relative;
+}
+
+.question h3{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.card-my {
+    margin-bottom: 48px;
+    padding: 24px;
+    margin-top: 60px;
+}
+
+.card-my:hover{
+    background: #fff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-my:hover > .title{
+    color: #44A0FF;
+}
+
+
+
+
+.left .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #14171D;
+}
+
+
+
+.left .discr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #606267;
+}
+
+.right .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    color: #14171D;
+}
+
+.right .discr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #606267;
+}
+.img-wrap{
+    width: 100%;
+}
+.img-wrap img{
+    width: 100%;
+}
+.drop {
+    max-width: 849px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drop-title {
+    padding: 24px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #14171D;
+    width: 100%;
+    position: relative;
+}
+
+.drop-title svg {
+    position: absolute;
+    right: 32px;
+    top: 27px;
+}
+
+.drop-title svg.revers {
+    transform: rotate(180deg);
+}
+
+.drop-discr {
+    display: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #606267;
+    padding: 0 24px 24px 24px;
+    width: 100%;
+}
+
+.feature_content .title{
+    margin-top: 16px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.feature_content .title_content{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+}
+
+.container .text{
+    margin-top: 100px;
+}
+
+.feature svg{
+    margin-left: 10px;
+}
+
+.center svg{
+    margin-left: 10px;
+}
+
+.circle_logo img{
+    margin-top: 50%;
+    transform: translate(0, -50%);
+}
+
+@media screen and (max-width:991px){
+    h1{
+        
+    }
+}
+
+#navbarNav{
+    width: 80px;
+}
+
+.brand_text{
+    margin-top: 35px;
+}
+
+.navbar-brand{
+    margin-left: 150px;
+    margin-top: 28px;  
+}
+
+.navbar .nav-link{
+    color: #fff;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    top: 20px;
+}
+
+.navbar-nav{
+    margin-top: 50px;
+}
+
+nav button{
+    margin-right: 150px;
+}
+
+.nav-link{
+    margin-top: 5px;
+}
