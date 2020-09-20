@@ -86,7 +86,7 @@ body {
 .main_block .phone{
     text-align: center;
     margin-top: 80px;
-    margin-left: -40px;
+    /*margin-left: -40px;*/
 ;
 }
 .circle{
@@ -435,6 +435,16 @@ text-transform: uppercase;
     border-radius: 5px;
     cursor: pointer;
 }
+.drop_plus {
+    max-width: 849px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 .drop-title {
     padding: 24px;
@@ -447,8 +457,24 @@ text-transform: uppercase;
     width: 100%;
     position: relative;
 }
+.drop_plus-title {
+    padding: 24px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #14171D;
+    width: 100%;
+    position: relative;
+}
 
 .drop-title svg {
+    position: absolute;
+    right: 32px;
+    top: 27px;
+}
+.drop_plus-title svg {
     position: absolute;
     right: 32px;
     top: 27px;
