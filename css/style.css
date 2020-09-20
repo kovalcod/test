@@ -530,11 +530,42 @@ text-transform: uppercase;
     transform: translate(0, -50%);
 }
 
-@media screen and (max-width:991px){
-    h1{
-        
+
+@media screen and (max-width:320px){
+    .testimonials h1{
+        font-size: 20px;
+        font-weight: 800;
     }
+    .content h1{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .feature h1{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 20px;
+    }
+    .container h1{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 20px;
+    }
+
+
+    .container{
+        margin-top: 75px;
+    }
+
+    .main_block .navbar-brand > img{
+        margin-left: -100px;
+    }
+    .phone img{
+        width: 250px;
+    }
+
 }
+
+
 
 #navbarNav{
     width: 80px;
