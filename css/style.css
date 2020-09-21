@@ -184,11 +184,11 @@ body {
     margin: 10px 0px 20px 0px;
   }
   
-  @media (max-width:767px){
+ /* @media (max-width:767px){
     .content{
       padding: 70px 0px 0px 0px;
     }
-  }
+  }*/
 
 
 
@@ -722,48 +722,12 @@ text-transform: uppercase;
         margin-top: 75px;
     }
 
-    .main_block .navbar-brand > img{
-        margin-left: -100px;
-    }
+   /* .main_block .navbar-brand > img{
+       margin-left: -100px;
+    }*/
     .phone img{
         width: 250px;
     }
 
 }
 
-
-
-#navbarNav{
-    width: 80px;
-}
-
-.brand_text{
-    margin-top: 35px;
-}
-
-.navbar-brand{
-    margin-left: 150px;
-    margin-top: 28px;  
-}
-
-.navbar .nav-link{
-    color: #fff;
-    font-family: 'Red Hat Display';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    top: 20px;
-}
-
-.navbar-nav{
-    margin-top: 50px;
-}
-
-nav button{
-    margin-right: 150px;
-}
-
-.nav-link{
-    margin-top: 5px;
-}
