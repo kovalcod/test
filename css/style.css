@@ -30,7 +30,7 @@ body {
 .container{
     width: 100%;
     margin: 0px auto;
-    padding: 0px 10px;
+    /*padding: 0px 10px;*/
   }
   
   .header{
@@ -174,7 +174,6 @@ body {
     }
   }
   
-  .content{}
   .content_text{
     font-size: 16px;
     line-height: 20px;
@@ -219,13 +218,13 @@ body {
     margin-top: 16px;
 }
 
-.navbar button:hover{
+button:hover{
     background: #fff;
     border: 1px solid #E2E8EB;
     color: #14171D;
 }
 
-.navbar button:active{
+button:active{
     background: #E2E8EB;
     border: 1px solid #E2E8EB;
     color: #fff;
@@ -597,6 +596,7 @@ text-transform: uppercase;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 }
 .drop_plus {
     max-width: 849px;
