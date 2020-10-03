@@ -729,9 +729,6 @@ button:active {
     .container {
         margin-top: 75px;
     }
-    /* .main_block .navbar-brand > img{
-       margin-left: -100px;
-    }*/
     .phone img {
         width: 250px;
     }
@@ -751,5 +748,7 @@ button:active {
 }
 
 .swiper-container {
+    top: 50px;
     height: 500px;
+    bottom: 100px;
 }
