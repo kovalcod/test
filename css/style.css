@@ -7,12 +7,13 @@ body {
     line-height: 24px;
 }
 
-.main_block{
+.main_block {
     width: 100%;
     background: #44A0FF;
+    margin-top: -90px;
 }
 
-.navbar{
+.navbar {
     height: 80px;
     font-family: 'Nunito';
     font-style: normal;
@@ -22,193 +23,190 @@ body {
     color: #FFFFFF;
 }
 
-.top_bar{
+.top_bar {
     background-color: #44A0FF;
     color: #fff;
 }
 
-.container{
+.container {
     width: 100%;
     margin: 0px auto;
     /*padding: 0px 10px;*/
-  }
-  
-  .header{
-    position: fixed;
+}
+
+.header {
     width: 100%;
     top: 0;
     left: 0;
     z-index: 50;
-  }
-  
-  .header:before{
+}
+
+.header:before {
     content: '';
     position: absolute;
     top: 0;
     width: 0;
-    height: 100%;
+    height: 50px;
     width: 100%;
     background-color: #44A0FF;
     z-index: 2;
-  }
-  .header_body{
+}
+
+.header_body {
     position: relative;
     display: flex;
     justify-content: space-between;
     height: 80px;
     align-items: center;
-  }
-  .header_logo{
+}
+
+.header_logo {
     flex: 0 0 60px;
     overflow: hidden;
     position: relative;
     z-index: 3;
-  }
-  .header_burger{
-    display: none; 
-  }
-  .header_list{
+}
+
+.header_burger {
+    display: none;
+}
+
+.header_list {
     display: flex;
     position: relative;
     z-index: 2;
-      margin-bottom:0;
-  }
-  
-  .header_list li{
+    margin-bottom: 0;
+}
+
+.header_list li {
     list-style: none;
     color: #fff;
     font-size: 18px;
     margin: 0px 0px 0px 20px;
-  }
-  .header_link{
+}
+
+.header_link {
     color: #fff;
     font-size: 14px;
     text-decoration: none;
-  }
+}
 
-  .header_list button{
-      border: 1px solid #fff;
-      border-radius: 5px;
-      background: #44A0FF;
-      color: #fff;
-  }
-  
-  @media (max-width: 767px){
-  body.lock{
-    overflow: hidden;
-  }
-  
-    .header_body{
-      height: 50px;
+.header_list button {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #44A0FF;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    body.lock {
+        overflow: hidden;
     }
-    .header_logo{
-      flex: 0 0 60px;
+    .header_body {
+        height: 50px;
     }
-    .header_burger{
-      display: block;
-      position: relative;
-      width: 30px;
-      height: 20px;
-      position: relative;
-      z-index: 3;
+    .header_logo {
+        flex: 0 0 60px;
     }
-  
-    .header_burger span{
-      position: absolute;
-      background-color: #fff;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      top: 9px;
-      transition: all 0.3s ease 0s;
-  }
+    .header_burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 4;
+    }
+    .header_burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
     .header_burger:before,
-    .header_burger:after{
-      content: '';
-      background-color: #fff;
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      left: 0; 
-      transition: all 0.3s ease 0s;
+    .header_burger:after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
     }
-    .header_burger:before{
-      top: 0;
+    .header_burger:before {
+        top: 0;
     }
-    .header_burger:after{
-      bottom: 0;
+    .header_burger:after {
+        bottom: 0;
     }
-  
-    .header_burger.active:before{
-      transform: rotate(45deg);
-      top: 9px;
+    .header_burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
     }
-    .header_burger.active:after{
-      transform: rotate(-45deg);
-      bottom: 9px;
+    .header_burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
     }
-  
-    .header_burger.active span{
-      transform: scale(0);
+    .header_burger.active span {
+        transform: scale(0);
     }
-  
-    .header_menu{
-      position: fixed;
-      top: -100%;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      transition: all 0.3s ease 0s;
-      background-color: #44A0FF;
-      padding: 50px 0px 0px 0px;
+    .header_menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: #44A0FF;
+        padding: 50px 0px 0px 0px;
+        z-index: 3;
     }
-  
-    .header_menu.active{
-      top: 0;
+    .header_menu.active {
+        top: 0;
     }
-  
-    .header_list{
-      display: block;
+    .header_list {
+        display: block;
     }
-    .header_list li{
-      margin: 0px 0px 20px 0px;
+    .header_list li {
+        margin: 0px 0px 20px 0px;
     }
-  }
-  
-  .content_text{
+}
+
+.content_text {
     font-size: 16px;
     line-height: 20px;
-  }
-  
-  .content_text p{
+}
+
+.content_text p {
     margin: 10px 0px 20px 0px;
-  }
-  
- /* @media (max-width:767px){
+}
+
+
+/* @media (max-width:767px){
     .content{
       padding: 70px 0px 0px 0px;
     }
   }*/
 
-
-
-
-
-.navbar p{
+.navbar p {
     margin-top: 28px;
     mix-blend-mode: normal;
     opacity: 0.7;
 }
-.navbar ul{
+
+.navbar ul {
     margin-top: 28px;
 }
-.navbar li{
+
+.navbar li {
     cursor: pointer;
     display: inline;
     margin: 16px;
 }
 
-.navbar button{
+.navbar button {
     margin-left: 40px;
     background: #44A0FF;
     border: 1px solid #FFFFFF;
@@ -219,19 +217,19 @@ body {
     margin-top: 16px;
 }
 
-button:hover{
+button:hover {
     background: #fff;
     border: 1px solid #E2E8EB;
     color: #14171D;
 }
 
-button:active{
+button:active {
     background: #E2E8EB;
     border: 1px solid #E2E8EB;
     color: #fff;
 }
 
-.main_block h1{
+.main_block h1 {
     text-align: center;
     margin-top: 80px;
     color: #fff;
@@ -240,31 +238,32 @@ button:active{
     line-height: 60px;
 }
 
-.main_block .logos{
+.main_block .logos {
     text-align: center;
     margin-top: 40px;
     position: relative;
 }
 
-.main_block .phone{
+.main_block .phone {
     text-align: center;
     margin-top: 80px;
     /*margin-left: -40px;*/
-;
+    ;
 }
-.circle{
+
+.circle {
     width: 100%;
     position: relative;
 }
 
-.circle img{
+.circle img {
     width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.feature h1{
+.feature h1 {
     margin-top: 100px;
     color: #14171D;
     font-style: normal;
@@ -273,52 +272,53 @@ button:active{
     line-height: 50px;
 }
 
-.feature p{
+.feature p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
 }
 
-.link{
+.link {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #44A0FF;
 }
 
-.feature .circle_logo{
+.feature .circle_logo {
     margin-top: 68px;
     width: 64px;
     height: 64px;
     background: #ECF5FF;
     border-radius: 50%;
     text-align: center;
-
 }
 
-.feature h2{
+.feature h2 {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     margin-top: 16px;
 }
-.feature p{
+
+.feature p {
     margin-top: 12px;
     font-size: 16px;
     line-height: 24px;
 }
 
-.content{
+.content {
     width: 100%;
 }
 
-.content h1{
+.content h1 {
     margin-top: 100px;
     text-align: center;
 }
-.testimonials h3{
+
+.testimonials h3 {
     margin-top: 100px;
     text-align: center;
     font-weight: bold;
@@ -326,7 +326,7 @@ button:active{
     line-height: 15px;
 }
 
-.testimonials h1{
+.testimonials h1 {
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -335,15 +335,14 @@ button:active{
     margin-top: 16px;
 }
 
-.card{
+.card {
     margin-top: 56px;
-
     height: 500px;
     background: #44A0FF;
     position: relative;
 }
 
-.gradient{
+.gradient {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
     mix-blend-mode: normal;
     opacity: 0.8;
@@ -352,7 +351,7 @@ button:active{
     bottom: 0;
 }
 
-.gradient h3{
+.gradient h3 {
     color: #fff;
     font-style: normal;
     font-weight: 500;
@@ -362,7 +361,7 @@ button:active{
     margin-left: 30px;
 }
 
-.gradient p{
+.gradient p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -373,7 +372,7 @@ button:active{
     margin-left: 30px;
 }
 
-.gradient .circle_icon{
+.gradient .circle_icon {
     position: absolute;
     width: 56px;
     height: 56px;
@@ -383,23 +382,24 @@ button:active{
     bottom: 32px;
     text-align: center;
     mix-blend-mode: normal;
-    opacity: 0.2;   
+    opacity: 0.2;
 }
 
-.gradient img{
+.gradient img {
     position: absolute;
     bottom: 50px;
     right: 50px;
 }
 
-.center{
+.center {
     margin-top: -45px;
     height: 500px;
     position: relative;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
 }
-.text p{
+
+.text p {
     position: absolute;
     height: 252px;
     font-family: 'Nunito';
@@ -411,7 +411,7 @@ button:active{
     margin-top: 32px;
 }
 
-.center h3{
+.center h3 {
     font-family: 'Red Hat Display', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -423,7 +423,7 @@ button:active{
     bottom: 101px;
 }
 
-.info p{
+.info p {
     position: absolute;
     font-style: normal;
     font-weight: normal;
@@ -433,35 +433,36 @@ button:active{
     bottom: 73px;
 }
 
-.center a{
+.center a {
     position: absolute;
     color: #44A0FF;
     bottom: 33px;
     left: 30px
 }
 
-.testimo{
+.testimo {
     height: 337px;
     position: relative;
 }
 
-.testimo p{
+.testimo p {
     font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-.testimo .text p{
+.testimo .text p {
     position: absolute;
     top: 70px;
     left: 20px;
 }
-.testimo .text{
+
+.testimo .text {
     margin-top: 100px;
 }
 
-.testimo .text img{
+.testimo .text img {
     position: absolute;
     top: 105px;
 }
@@ -471,40 +472,41 @@ line-height: 30px;
     bottom: 100px;
 }
 
-.avatar h3{
+.avatar h3 {
     font-family: 'Red Hat Display', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-.avatar p{
+.avatar p {
     display: inline-block;
     font-family: 'Nunito';
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
 }
-.avatar img{
+
+.avatar img {
     display: inline-block;
 }
 
-.faq h3{
+.faq h3 {
     text-align: center;
     font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
 }
 
-.faq h1{
+.faq h1 {
     text-align: center;
     margin-top: 16px;
 }
 
-.question{
+.question {
     margin-top: 16px;
     height: 80px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
@@ -512,7 +514,7 @@ text-transform: uppercase;
     position: relative;
 }
 
-.question h3{
+.question h3 {
     font-family: 'Red Hat Display';
     font-style: normal;
     font-weight: 500;
@@ -523,29 +525,28 @@ text-transform: uppercase;
     top: 24px;
 }
 
-.wrap{
+.wrap {
     display: flex;
     align-items: center;
     margin-top: 60px;
 }
+
 .card-my {
     margin-bottom: 48px;
     padding: 24px;
     margin-top: 60px;
 }
 
-.card-my:hover{
+.card-my:hover {
     background: #fff;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     cursor: pointer;
 }
-.card-my:hover > .title{
+
+.card-my:hover>.title {
     color: #44A0FF;
 }
-
-
-
 
 .left .title {
     font-style: normal;
@@ -554,8 +555,6 @@ text-transform: uppercase;
     text-align: right;
     color: #14171D;
 }
-
-
 
 .left .discr {
     font-style: normal;
@@ -582,12 +581,15 @@ text-transform: uppercase;
     text-align: left;
     color: #606267;
 }
-.img-wrap{
+
+.img-wrap {
     width: 100%;
 }
-.img-wrap img{
+
+.img-wrap img {
     width: 100%;
 }
+
 .drop {
     max-width: 849px;
     width: 100%;
@@ -599,6 +601,7 @@ text-transform: uppercase;
     cursor: pointer;
     margin-top: 20px;
 }
+
 .drop_plus {
     max-width: 849px;
     width: 100%;
@@ -623,6 +626,7 @@ text-transform: uppercase;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .drop_plus-title {
     padding: 24px;
     height: 78px;
@@ -640,6 +644,7 @@ text-transform: uppercase;
     right: 32px;
     top: 27px;
 }
+
 .drop_plus-title svg {
     position: absolute;
     right: 32px;
@@ -661,7 +666,7 @@ text-transform: uppercase;
     width: 100%;
 }
 
-.feature_content .title{
+.feature_content .title {
     margin-top: 16px;
     font-family: 'Red Hat Display';
     font-style: normal;
@@ -670,7 +675,7 @@ text-transform: uppercase;
     line-height: 30px;
 }
 
-.feature_content .title_content{
+.feature_content .title_content {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: normal;
@@ -679,58 +684,72 @@ text-transform: uppercase;
     margin-top: 12px;
 }
 
-.container .text{
+.container .text {
     margin-top: 100px;
 }
 
-.feature svg{
+.feature svg {
     margin-left: 10px;
 }
 
-.center svg{
+.center svg {
     margin-left: 10px;
 }
 
-.circle_logo img{
+.circle_logo img {
     margin-top: 50%;
     transform: translate(0, -50%);
 }
 
-
 @media screen and (min-width:320px) and (max-width: 540px) {
-    .header{
+    .main_block {
+        margin-top: -125px;
+    }
+    .header {
         margin-top: -50px;
     }
-    .testimonials h1{
+    .testimonials h1 {
         font-size: 20px;
         font-weight: 800;
     }
-    .content h1{
+    .content h1 {
         font-size: 20px;
         font-weight: 800;
     }
-    .feature h1{
-        font-size: 20px;
-        font-weight: 800;
-        line-height: 20px;
-    }
-    .container h1{
+    .feature h1 {
         font-size: 20px;
         font-weight: 800;
         line-height: 20px;
     }
-
-
-    .container{
+    .container h1 {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 20px;
+    }
+    .container {
         margin-top: 75px;
     }
-
-   /* .main_block .navbar-brand > img{
+    /* .main_block .navbar-brand > img{
        margin-left: -100px;
     }*/
-    .phone img{
+    .phone img {
         width: 250px;
     }
-
 }
 
+.drop-discr {
+    display: none;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-container {
+    height: 500px;
+}
